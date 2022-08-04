@@ -25,8 +25,7 @@ public class Bullet : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("Die  x2");
-        if (collision.tag == "Enemy")
+        if (collision.gameObject.tag == "Enemy")
         {
             Debug.Log("Die enemy");
             Destroy(collision.gameObject);
