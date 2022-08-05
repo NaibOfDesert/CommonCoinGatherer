@@ -6845,15 +6845,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 388612820}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2036149867}
   - {fileID: 218528502}
   - {fileID: 1234210588}
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_Father: {fileID: 1925408084}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &438016722 stripped
 Transform:
@@ -7158,14 +7158,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 753642538}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 438016722}
   - {fileID: 1896778849}
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_Father: {fileID: 1925408084}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1234210587
 PrefabInstance:
@@ -8575,6 +8575,68 @@ TilemapCollider2D:
 Transform:
   m_CorrespondingSourceObject: {fileID: 4165363503547147312, guid: 5eca58462794d3647b34668f0529ae09, type: 3}
   m_PrefabInstance: {fileID: 1546462165}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1925408083
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 392317627398095508, guid: b283d3186f51fa24ebc9cbca65dc4022, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 392317627398095508, guid: b283d3186f51fa24ebc9cbca65dc4022, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 392317627398095508, guid: b283d3186f51fa24ebc9cbca65dc4022, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 392317627398095508, guid: b283d3186f51fa24ebc9cbca65dc4022, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 392317627398095508, guid: b283d3186f51fa24ebc9cbca65dc4022, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 392317627398095508, guid: b283d3186f51fa24ebc9cbca65dc4022, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 392317627398095508, guid: b283d3186f51fa24ebc9cbca65dc4022, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 392317627398095508, guid: b283d3186f51fa24ebc9cbca65dc4022, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 392317627398095508, guid: b283d3186f51fa24ebc9cbca65dc4022, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 392317627398095508, guid: b283d3186f51fa24ebc9cbca65dc4022, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 392317627398095508, guid: b283d3186f51fa24ebc9cbca65dc4022, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2358357742661994057, guid: b283d3186f51fa24ebc9cbca65dc4022, type: 3}
+      propertyPath: m_Name
+      value: ScenePersist
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b283d3186f51fa24ebc9cbca65dc4022, type: 3}
+--- !u!4 &1925408084 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 392317627398095508, guid: b283d3186f51fa24ebc9cbca65dc4022, type: 3}
+  m_PrefabInstance: {fileID: 1925408083}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &2036149867 stripped
 Transform:
