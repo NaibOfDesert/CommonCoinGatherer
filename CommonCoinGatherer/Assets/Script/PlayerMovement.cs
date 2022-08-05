@@ -13,8 +13,6 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] GameObject bullet;
     [SerializeField] Transform gun;
 
-
-
     Vector2 moveInput;
     Rigidbody2D myRigidbody;
     Animator myAnimator;
@@ -116,6 +114,7 @@ public class PlayerMovement : MonoBehaviour
             isAlive = false;
             myAnimator.SetTrigger("Dying");
             myRigidbody.velocity = deathKick;
+            FindObjectOfType<GameSession>().ProcessPlayerDeath();
         }
     }
 
