@@ -18,11 +18,14 @@ public class LevelExit : MonoBehaviour
     {
         yield return new WaitForSecondsRealtime(levelLoadDelay);
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
-        int nextSceneIndex = currentSceneIndex + 1; 
+        int nextSceneIndex = currentSceneIndex + 1;
+        
         if(nextSceneIndex == SceneManager.sceneCountInBuildSettings)
         {
             nextSceneIndex = 0;
         }
+
+        FindObjectOfType<ScenePersist>().ResetScenePersist();
         SceneManager.LoadScene(nextSceneIndex);
      }
 }
